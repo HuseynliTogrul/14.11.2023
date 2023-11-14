@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.smile{
+    width: 200px;
+    height: 200px;
+    background: gray;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 15%;
+    padding: 15px;
+}
+
+.eyes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.eyes p{
+    margin: 0 20px;
+    font-size: 30px;
+    background: white;
+    border-radius: 40%;
+    width: 25px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nose p{
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 20px;
+}
+
+.mouse{
+    background: white;
+    display: inline-block;
+    border-radius: 15px;
+    width: 60%;
+    padding: 13px;
+}
